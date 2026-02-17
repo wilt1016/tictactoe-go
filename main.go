@@ -5,7 +5,7 @@ import (
 	"math/rand"
 )
 
-// [9]int becuase it is a array of 9 integars
+// [9]int becuase it is a array of 9 numbers which are strings
 var board = [9]string{"1", "2", "3", "4", "5", "6", "7", "8", "9"}
 
 func printBoard() {
