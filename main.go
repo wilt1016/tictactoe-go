@@ -94,7 +94,7 @@ func main() {
 			continue
 		}
 
-		if board[choice-1] != "X" && board[choice] != "O" {
+		if board[choice-1] != "X" && board[choice-1] != "O" {
 			board[choice-1] = "X"
 			computerMove()
 		} else {
